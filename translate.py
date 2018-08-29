@@ -39,8 +39,8 @@ tf.app.flags.DEFINE_integer("size", 256, "Size of each model layer.")
 tf.app.flags.DEFINE_integer("num_layers", 2, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("in_vocab_size", 500, "input vocabulary size.")
 tf.app.flags.DEFINE_integer("out_vocab_size", 500, "output vocabulary size.")
-tf.app.flags.DEFINE_string("data_dir", "datas", "Data directory")       
-tf.app.flags.DEFINE_string("train_dir", "datas", "Training directory.")
+tf.app.flags.DEFINE_string("data_dir", "/chat/datas", "Data directory")       
+tf.app.flags.DEFINE_string("train_dir", "/chat/datas", "Training directory.")
 tf.app.flags.DEFINE_integer("max_train_data_size", 0,
                             "Limit on the size of training data (0: no limit).")
 tf.app.flags.DEFINE_integer("steps_per_checkpoint", 100,
